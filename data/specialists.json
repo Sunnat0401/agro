@@ -1,0 +1,350 @@
+{
+    "categories": [
+      {
+        "id": "plant-protection",
+        "name": {
+          "uz": "O'simliklarni himoya qilish",
+          "ru": "Защита растений",
+          "en": "Plant Protection"
+        }
+      },
+      {
+        "id": "soil-science",
+        "name": {
+          "uz": "Tuproqshunoslik",
+          "ru": "Почвоведение",
+          "en": "Soil Science"
+        }
+      },
+      {
+        "id": "agrochemistry",
+        "name": {
+          "uz": "Agrokimyo",
+          "ru": "Агрохимия",
+          "en": "Agrochemistry"
+        }
+      },
+      {
+        "id": "irrigation",
+        "name": {
+          "uz": "Sug'orish muhandisligi",
+          "ru": "Инженерия орошения",
+          "en": "Irrigation Engineering"
+        }
+      },
+      {
+        "id": "crop-production",
+        "name": {
+          "uz": "Ekin ishlab chiqarish",
+          "ru": "Производство культур",
+          "en": "Crop Production"
+        }
+      },
+      {
+        "id": "livestock",
+        "name": {
+          "uz": "Chorvachilik",
+          "ru": "Животноводство",
+          "en": "Livestock"
+        }
+      }
+    ],
+    "specialists": [
+      {
+        "id": "agro-1",
+        "name": "Dr. Alisher Ismoilov",
+        "photo": "https://storage.kun.uz/source/7/kqxpjfy5VU3GyPz-a97LGuURajbuFy-o.jpg",
+        "category": "plant-protection",
+        "specialization": {
+          "uz": "O'simliklarni himoya qilish mutaxassisi",
+          "ru": "Специалист по защите растений",
+          "en": "Plant Protection Specialist"
+        },
+        "experience": 15,
+        "rating": 4.8,
+        "reviews": 124,
+        "clinicName": {
+          "uz": "AgroLab Ilmiy Markazi",
+          "ru": "Научный центр AgroLab",
+          "en": "AgroLab Scientific Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Yunusobod t., 5-mavze",
+          "ru": "г. Ташкент, Юнусабадский р-н, 5-массив",
+          "en": "Tashkent, Yunusabad dist., 5th block"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 9:00-18:00",
+          "ru": "Понедельник-Пятница 9:00-18:00",
+          "en": "Monday-Friday 9:00-18:00"
+        },
+        "phone": "+998 90 123 45 67",
+        "operatorPhone": "+998 71 234 56 78",
+        "location": [41.3111, 69.2401],
+        "description": {
+          "uz": "15 yillik tajribaga ega o'simliklarni himoya qilish mutaxassisi. Zararkunandalar, kasalliklar va begona o'tlar bilan kurashish bo'yicha keng tajriba. 500 dan ortiq fermer xo'jaligiga konsultatsiya bergan.",
+          "ru": "Специалист по защите растений с 15-летним опытом. Обширный опыт борьбы с вредителями, болезнями и сорняками. Проконсультировал более 500 фермерских хозяйств.",
+          "en": "Plant protection specialist with 15 years of experience. Extensive experience in pest, disease and weed control. Consulted over 500 farms."
+        }
+      },
+      {
+        "id": "agro-2",
+        "name": "Prof. Dilorom Xasanova",
+        "photo": "https://uzolima.uz/wp-content/uploads/2023/05/banner4-11.jpg",
+        "category": "soil-science",
+        "specialization": {
+          "uz": "Tuproqshunos olima",
+          "ru": "Ученый-почвовед",
+          "en": "Soil Scientist"
+        },
+        "experience": 20,
+        "rating": 4.9,
+        "reviews": 89,
+        "clinicName": {
+          "uz": "Tuproq Tadqiqot Instituti",
+          "ru": "Институт исследования почв",
+          "en": "Soil Research Institute"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Mirzo Ulug'bek t., Universitet ko'chasi",
+          "ru": "г. Ташкент, Мирзо Улугбекский р-н, ул. Университетская",
+          "en": "Tashkent, Mirzo Ulugbek dist., University street"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Shanba 8:00-17:00",
+          "ru": "Понедельник-Суббота 8:00-17:00",
+          "en": "Monday-Saturday 8:00-17:00"
+        },
+        "phone": "+998 91 234 56 78",
+        "operatorPhone": "+998 71 345 67 89",
+        "location": [41.3381, 69.3321],
+        "description": {
+          "uz": "Tuproq unumdorligi va sifatini oshirish bo'yicha yetakchi mutaxassis. Tuproq tahlili va optimallashtirish bo'yicha 20 yillik tajriba. 1000 ga yaqin tuproq namunalarini tahli qilgan.",
+          "ru": "Ведущий специалист по повышению плодородия и качества почвы. 20-летний опыт анализа и оптимизации почвы. Проанализировал около 1000 образцов почвы.",
+          "en": "Leading specialist in soil fertility and quality improvement. 20 years of experience in soil analysis and optimization. Analyzed about 1000 soil samples."
+        }
+      },
+      {
+        "id": "agro-3",
+        "name": "Dr. Bekzod Rahimov",
+        "photo": "data:image/jpeg;base64,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",
+        "category": "agrochemistry",
+        "specialization": {
+          "uz": "Agrokimyo mutaxassisi",
+          "ru": "Специалист по агрохимии",
+          "en": "Agrochemistry Specialist"
+        },
+        "experience": 12,
+        "rating": 4.7,
+        "reviews": 67,
+        "clinicName": {
+          "uz": "AgroKimyo Markazi",
+          "ru": "Центр АгроХимия",
+          "en": "AgroChemistry Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Chilonzor t., 11-mavze",
+          "ru": "г. Ташкент, Чиланзарский р-н, 11-массив",
+          "en": "Tashkent, Chilanzar dist., 11th block"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 8:30-17:30",
+          "ru": "Понедельник-Пятница 8:30-17:30",
+          "en": "Monday-Friday 8:30-17:30"
+        },
+        "phone": "+998 93 345 67 89",
+        "operatorPhone": "+998 71 456 78 90",
+        "location": [41.2891, 69.2041],
+        "description": {
+          "uz": "O'g'itlar va kimyoviy moddalarni qo'llash bo'yicha mutaxassis. O'simliklar oziqlantirish va unumdorlikni oshirish bo'yicha konsultatsiyalar. Ekologik toza qishloq xo'jaligi texnologiyalari.",
+          "ru": "Специалист по применению удобрений и химикатов. Консультации по питанию растений и повышению урожайности. Экологически чистые сельскохозяйственные технологии.",
+          "en": "Specialist in fertilizer and chemical application. Consultations on plant nutrition and yield improvement. Environmentally friendly agricultural technologies."
+        }
+      },
+      {
+        "id": "agro-4",
+        "name": "Ir. Farxod Yusupov",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rgw48KNZ7CicUkQzkeXY0jaUSRkNkryo7w&s",
+        "category": "irrigation",
+        "specialization": {
+          "uz": "Sug'orish muhandisi",
+          "ru": "Инженер по орошению",
+          "en": "Irrigation Engineer"
+        },
+        "experience": 18,
+        "rating": 4.6,
+        "reviews": 92,
+        "clinicName": {
+          "uz": "Suv Xo'jaligi Markazi",
+          "ru": "Центр водного хозяйства",
+          "en": "Water Management Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Yashnobod t., Suvsozlar ko'chasi",
+          "ru": "г. Ташкент, Яшнабадский р-н, ул. Водников",
+          "en": "Tashkent, Yashnabad dist., Water Engineers street"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 9:00-18:00",
+          "ru": "Понедельник-Пятница 9:00-18:00",
+          "en": "Monday-Friday 9:00-18:00"
+        },
+        "phone": "+998 94 456 78 90",
+        "operatorPhone": "+998 71 567 89 01",
+        "location": [41.2551, 69.2801],
+        "description": {
+          "uz": "Zamonaviy sug'orish tizimlari va suv tejovchi texnologiyalar bo'yicha mutaxassis. Tomchilatib sug'orish va avtomatlashtirilgan tizimlar o'rnatish. Suv resurslarini samarali boshqarish.",
+          "ru": "Специалист по современным системам орошения и водосберегающим технологиям. Установка капельного орошения и автоматизированных систем. Эффективное управление водными ресурсами.",
+          "en": "Specialist in modern irrigation systems and water-saving technologies. Installation of drip irrigation and automated systems. Efficient water resource management."
+        }
+      },
+      {
+        "id": "agro-5",
+        "name": "Dr. Malika Qodirova",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DruUfncekYlNwD-c7iBn1uQqFo9NX7K8QQ&s",
+        "category": "crop-production",
+        "specialization": {
+          "uz": "Ekin ishlab chiqarish mutaxassisi",
+          "ru": "Специалист по производству культур",
+          "en": "Crop Production Specialist"
+        },
+        "experience": 14,
+        "rating": 4.8,
+        "reviews": 78,
+        "clinicName": {
+          "uz": "AgroInnovatsiya Markazi",
+          "ru": "Центр АгроИнновация",
+          "en": "AgroInnovation Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Sergeli t., Qishloq xo'jaligi yo'li",
+          "ru": "г. Ташkент, Сергелийский р-н, Сельскохозяйственная дорога",
+          "en": "Tashkent, Sergeli dist., Agriculture road"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Shanba 8:00-16:00",
+          "ru": "Понедельник-Суббота 8:00-16:00",
+          "en": "Monday-Saturday 8:00-16:00"
+        },
+        "phone": "+998 95 567 89 01",
+        "operatorPhone": "+998 71 678 90 12",
+        "location": [41.2151, 69.2351],
+        "description": {
+          "uz": "Ekinlarni etishtirish va hosildorlikni oshirish bo'yicha mutaxassis. Yangi navlar va zamonaviy agrotexnologiyalar. Iqlim sharoitiga moslashtirilgan ekin tizimlari.",
+          "ru": "Специалист по выращиванию культур и повышению урожайности. Новые сорта и современные агротехнологии. Адаптированные к климатическим условиям системы земледелия.",
+          "en": "Specialist in crop cultivation and yield improvement. New varieties and modern agricultural technologies. Climate-adapted cropping systems."
+        }
+      },
+      {
+        "id": "agro-6",
+        "name": "Dr. Shavkat To'rayev",
+        "photo": "data:image/jpeg;base64,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",
+        "category": "livestock",
+        "specialization": {
+          "uz": "Chorvachilik mutaxassisi",
+          "ru": "Специалист по животноводству",
+          "en": "Livestock Specialist"
+        },
+        "experience": 16,
+        "rating": 4.7,
+        "reviews": 105,
+        "clinicName": {
+          "uz": "Chorvachilik Rivojlanti Markazi",
+          "ru": "Центр развития животноводства",
+          "en": "Livestock Development Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Olmazor t., Chorva ko'chasi",
+          "ru": "г. Ташкент, Алмазарский р-н, ул. Животноводческая",
+          "en": "Tashkent, Almazar dist., Livestock street"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 8:00-17:00",
+          "ru": "Понедельник-Пятница 8:00-17:00",
+          "en": "Monday-Friday 8:00-17:00"
+        },
+        "phone": "+998 97 678 90 12",
+        "operatorPhone": "+998 71 789 01 23",
+        "location": [41.3451, 69.3851],
+        "description": {
+          "uz": "Chorva mollari parvarishi, sog'lig'i va ko'paytirish bo'yicha mutaxassis. Zamonaviy chorvachilik fermalari loyihalash. Kasalliklarning oldini olish va parvarish.",
+          "ru": "Специалист по уходу, здоровью и размножению скота. Проектирование современных животноводческих ферм. Профилактика заболеваний и уход.",
+          "en": "Specialist in livestock care, health and reproduction. Designing modern livestock farms. Disease prevention and care."
+        }
+      },
+      {
+        "id": "agro-7",
+        "name": "Dr. Nargiza Xolmirzayeva",
+        "photo": "data:image/jpeg;base64,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",
+        "category": "plant-protection",
+        "specialization": {
+          "uz": "Entomolog",
+          "ru": "Энтомолог",
+          "en": "Entomologist"
+        },
+        "experience": 11,
+        "rating": 4.5,
+        "reviews": 56,
+        "clinicName": {
+          "uz": "Zararkunandalarga qarshi kurash markazi",
+          "ru": "Центр борьбы с вредителями",
+          "en": "Pest Control Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Shayxontohur t., Biologiya ko'chasi",
+          "ru": "г. Ташкент, Шайхантахурский р-н, ул. Биологическая",
+          "en": "Tashkent, Shaykhantahur dist., Biology street"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 9:00-18:00",
+          "ru": "Понедельник-Пятница 9:00-18:00",
+          "en": "Monday-Friday 9:00-18:00"
+        },
+        "phone": "+998 90 789 01 23",
+        "operatorPhone": "+998 71 890 12 34",
+        "location": [41.3151, 69.2451],
+        "description": {
+          "uz": "Zararkunanda hasharotlar va ularga qarshi kurash usullari bo'yicha mutaxassis. Biologik va ekologik himoya usullari. Integratsiyalashgan zararkunandalarni boshqarish.",
+          "ru": "Специалист по вредным насекомым и методам борьбы с ними. Биологические и экологические методы защиты. Интегрированное управление вредителями.",
+          "en": "Specialist in pest insects and control methods. Biological and ecological protection methods. Integrated pest management."
+        }
+      },
+      {
+        "id": "agro-8",
+        "name": "Prof. Jamoliddin Karimov",
+        "photo": "data:image/jpeg;base64,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",
+        "category": "soil-science",
+        "specialization": {
+          "uz": "Tuproq melioratsiyasi mutaxassisi",
+          "ru": "Специалист по мелиорации почв",
+          "en": "Soil Reclamation Specialist"
+        },
+        "experience": 22,
+        "rating": 4.9,
+        "reviews": 112,
+        "clinicName": {
+          "uz": "Melioratsiya Ilmiy Markazi",
+          "ru": "Научный центр мелиорации",
+          "en": "Reclamation Scientific Center"
+        },
+        "clinicAddress": {
+          "uz": "Toshkent sh., Yakkasaroy t., Melioratorlar ko'chasi",
+          "ru": "г. Ташкент, Яккасарайский р-н, ул. Мелиораторов",
+          "en": "Tashkent, Yakkasaray dist., Reclamators street"
+        },
+        "workingHours": {
+          "uz": "Dushanba-Juma 8:00-17:00",
+          "ru": "Понедельник-Пятница 8:00-17:00",
+          "en": "Monday-Friday 8:00-17:00"
+        },
+        "phone": "+998 91 890 12 34",
+        "operatorPhone": "+998 71 901 23 45",
+        "location": [41.2951, 69.2751],
+        "description": {
+          "uz": "Tuproqni yaxshilash va shuningdek sho'rlangan, ishqorlangan tuproqlarni tiklash bo'yicha mutaxassis. Meliorativ tadbirlar va tuproq sifatini oshirish.",
+          "ru": "Специалист по улучшению почвы и восстановлению засоленных, щелочных почв. Мелиоративные мероприятия и повышение качества почвы.",
+          "en": "Specialist in soil improvement and restoration of saline, alkaline soils. Reclamation measures and soil quality improvement."
+        }
+      }
+    ]
+  }

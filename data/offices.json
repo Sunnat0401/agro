@@ -1,0 +1,73 @@
+{
+  "offices": [
+    {
+      "id": "1",
+      "name": { "uz": "Toshkent Markaziy", "ru": "Ташкент Центральный", "en": "Tashkent Central" },
+      "address": { "uz": "Amir Temur ko'chasi, 15", "ru": "ул. Амира Темура, 15", "en": "15 Amir Temur Street" },
+      "coordinates": [41.311081, 69.279737],
+      "phone": "+998 71 123 45 67",
+      "workingHours": "09:00 - 18:00",
+      "images": [
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400"
+      ]
+    },
+    {
+      "id": "2",
+      "name": { "uz": "Toshkent Sergeli", "ru": "Ташкент Сергели", "en": "Tashkent Sergeli" },
+      "address": {
+        "uz": "Sergeli tumani, 45-uy",
+        "ru": "Сергелийский район, дом 45",
+        "en": "Sergeli District, Building 45"
+      },
+      "coordinates": [41.223547, 69.216049],
+      "phone": "+998 71 234 56 78",
+      "workingHours": "09:00 - 19:00",
+      "images": [
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400"
+      ]
+    },
+    {
+      "id": "3",
+      "name": { "uz": "Samarqand", "ru": "Самарканд", "en": "Samarkand" },
+      "address": { "uz": "Registon ko'chasi, 78", "ru": "ул. Регистан, 78", "en": "78 Registan Street" },
+      "coordinates": [39.65471, 66.959722],
+      "phone": "+998 66 345 67 89",
+      "workingHours": "08:00 - 17:00",
+      "images": [
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400"
+      ]
+    },
+    {
+      "id": "4",
+      "name": { "uz": "Buxoro", "ru": "Бухара", "en": "Bukhara" },
+      "address": { "uz": "Navoi ko'chasi, 32", "ru": "ул. Навои, 32", "en": "32 Navoi Street" },
+      "coordinates": [39.768476, 64.42195],
+      "phone": "+998 65 456 78 90",
+      "workingHours": "08:00 - 17:00",
+      "images": [
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400"
+      ]
+    },
+    {
+      "id": "5",
+      "name": { "uz": "Farg'ona", "ru": "Фергана", "en": "Fergana" },
+      "address": { "uz": "Mustaqillik ko'chasi, 100", "ru": "ул. Мустакиллик, 100", "en": "100 Mustaqillik Street" },
+      "coordinates": [40.384174, 71.787247],
+      "phone": "+998 73 567 89 01",
+      "workingHours": "09:00 - 18:00",
+      "images": [
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400",
+        "/placeholder.svg?height=300&width=400"
+      ]
+    }
+  ]
+}
