@@ -70,7 +70,8 @@ export default function HomePage() {
           transition={{ duration: 0.5 }}
           className="relative mb-12 overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 to-emerald-700 p-8 text-white md:p-12"
         >
-          <div className="relative z-10 max-w-2xl">
+          <div className="relative z-10 max-w-2xl 
+          ">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

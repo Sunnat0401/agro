@@ -340,58 +340,61 @@ export function Header() {
 
       {/* Bottom Navigation Bar - 1024px dan kichik ekranlarda */}
       {isMobile && (
-        <motion.nav
-          initial={{ y: 100 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 0.3 }}
-          className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/80 backdrop-blur-lg lg:hidden"
-        >
-          <div className="container mx-auto px-4">
-            <div className="flex items-center justify-around py-3">
-              {[...navItems, profileItem].map((item) => {
-                const isActive = pathname === item.href
-                return (
-                  <Link key={item.href} href={item.href} className="flex-1">
-                    <motion.div
+  <motion.nav
+    initial={{ y: 100 }}
+    animate={{ y: 0 }}
+    transition={{ duration: 0.3 }}
+    className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/80 backdrop-blur-lg lg:hidden"
+  >
+    <div className="container mx-auto px-4">
+      <div className="flex items-center justify-around py-3">
+        {[...navItems, profileItem].map((item) => {
+          const isActive = pathname === item.href
+          return (
+            <Link key={item.href} href={item.href} className="flex-1">
+              <motion.div
+                className={cn(
+                  "relative flex flex-col items-center gap-1 rounded-lg py-2 text-xs font-medium transition-colors",
+                  isActive ? "text-green-600" : "text-muted-foreground hover:text-foreground",
+                )}
+                whileTap={{ scale: 0.9 }}
+              >
+                <div className="relative">
+                  <item.icon className="h-5 w-5" />
+                  {item.badge !== undefined && item.badge > 0 && (
+                    <motion.span
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
                       className={cn(
-                        "relative flex flex-col items-center gap-1 rounded-lg py-2 text-xs font-medium transition-colors",
-                        isActive ? "text-green-600" : "text-muted-foreground hover:text-foreground",
+                        "absolute -top-2 -right-2 flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold text-white",
+                        item.badge === "!" 
+                          ? "bg-red-500" 
+                          : "bg-green-600"
                       )}
-                      whileTap={{ scale: 0.9 }}
                     >
-                      <div className="relative">
-                        <item.icon className="h-5 w-5" />
-                        {item.badge !== undefined && item.badge > 0 && (
-                          <motion.span
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            className={cn(
-                              "absolute -top-2 -right-2 flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold text-white",
-                              item.badge === "!" 
-                                ? "bg-red-500" 
-                                : "bg-green-600"
-                            )}
-                          >
-                            {item.badge}
-                          </motion.span>
-                        )}
-                      </div>
-                      <span className="text-[10px]">{item.label}</span>
-                      {isActive && (
-                        <motion.div
-                          layoutId="bottom-nav-indicator"
-                          className="absolute -top-1 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-green-600"
-                          transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                        />
-                      )}
-                    </motion.div>
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-        </motion.nav>
-      )}
+                      {item.badge}
+                    </motion.span>
+                  )}
+                </div>
+                {/* Label har doim ko'rinadi */}
+                <span className="text-[10px]">
+                  {item.label}
+                </span>
+                {isActive && (
+                  <motion.div
+                    layoutId="bottom-nav-indicator"
+                    className="absolute -top-1 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-green-600"
+                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                  />
+                )}
+              </motion.div>
+            </Link>
+          )
+        })}
+      </div>
+    </div>
+  </motion.nav>
+)}
     </>
   )
 }

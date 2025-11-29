@@ -44,12 +44,12 @@
       "lastNamePlaceholder": "Familiyangiz"
     },
     "nav": {
-      "home": "Bosh sahifa",
-      "chat": "AI Yordamchi",
+      "home": "Asosiy",
+      "chat": "AI",
       "market": "Do'kon",
       "cart": "Savat",
       "profile": "Profil",
-      "specialists": "Mutaxassislar",
+      "specialists": "Ekspertlar",
       "farmers": "Fermerlar"
     },
     "chat": {
@@ -300,7 +300,7 @@
     },
     "nav": {
       "home": "Главная",
-      "chat": "AI Помощник",
+      "chat": "AI ",
       "market": "Магазин",
       "cart": "Корзина",
       "profile": "Профиль",
@@ -308,7 +308,7 @@
       "farmers": "Фермеры"
     },
     "chat": {
-      "title": "AI Помощник",
+      "title": "AI",
       "subtitle": "Диагностика болезней растений и животных",
       "placeholder": "Напишите ваш вопрос...",
       "send": "Отправить",

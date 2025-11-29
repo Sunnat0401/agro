@@ -154,7 +154,10 @@
 .dark ::-webkit-scrollbar-thumb:hover {
   background: oklch(0.5 0 0 / 0.5);
 }
-
+.agromaniya{
+  
+  background:url("../public/maniyaagro.png")
+}
 /* Hide scrollbar for mobile nav */
 .hide-scrollbar {
   -ms-overflow-style: none;
