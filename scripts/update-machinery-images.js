@@ -120,3 +120,4 @@ console.log(`Updated ${data.machinery.length} machinery items with real images`)
 
 
 
+

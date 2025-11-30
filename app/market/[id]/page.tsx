@@ -257,7 +257,7 @@ export default function ProductDetailPage() {
             className="mt-12"
           >
             <h2 className="mb-6 text-xl font-bold text-foreground">{t("market.relatedProducts")}</h2>
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div className="grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {relatedProducts.map((p, i) => (
                 <ProductCard key={p.id} product={p} index={i} />
               ))}
@@ -273,7 +273,7 @@ export default function ProductDetailPage() {
             className="mt-12"
           >
             <h2 className="mb-6 text-xl font-bold text-foreground">{t("market.youMayAlsoLike")}</h2>
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div className="grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {youMayLike.map((p, i) => (
                 <ProductCard key={p.id} product={p} index={i} />
               ))}
